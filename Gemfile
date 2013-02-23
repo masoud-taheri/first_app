@@ -2,10 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
-group :production do
+group :development do
   gem 'pg', '0.12.2'
 end
-
 
 
 # Gems used only for assets and not required
